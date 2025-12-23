@@ -1,0 +1,16 @@
+{
+  "name": "lunar-keystone",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Lunar Keystone – TypeScript/Vite project built on Base ecosystem repositories.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@base-org/node": "^0.2.0",
+    "@base-org/contracts": "^0.3.0",
+    "@base-org/onchainkit": "^0.1
