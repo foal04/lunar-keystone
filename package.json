@@ -13,4 +13,8 @@
   "dependencies": {
     "@base-org/node": "^0.2.0",
     "@base-org/contracts": "^0.3.0",
-    "@base-org/onchainkit": "^0.1
+    "@base-org/onchainkit": "^0.1,
+    "base-smart-wallet": "github:base/smart-wallet",
+    "coinbase-agentkit": "github:coinbase/agentkit",
+  }
+}
