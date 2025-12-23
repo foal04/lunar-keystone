@@ -6,12 +6,12 @@ Lunar Keystone is a minimal Base-focused reference repository that validates net
 
 ## Repository layout
 
-- app.lunar-keystone.ts  
+- app/lunar-keystone.ts  
   Browser entry script providing wallet connection and read-only RPC queries.
 
 - contracts/  
   Solidity contracts deployed to Base Sepolia for testnet validation:
-  - imports.sol — A Solidity contract focused on importing external code. 
+  - imports.sol — a Solidity contract focused on importing external code. 
   - mapping.sol — simple interaction test contract that enables fast lookup by key
  
 - config/networks.json  
